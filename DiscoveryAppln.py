@@ -149,19 +149,19 @@ class DiscoveryAppln(Pingu):
     on a given key.
     2. forward_request: This function sends a forward request to a node in the distributed hash table based on the type 
     and index of the node.
-    1. registerForwardDHT: performs Chord algorithm to find the successor node and forwards the registration request accordingly.
-    2. isreadyForwardDHT: aggregates the number of publishers and subscribers, checks if there are any brokers, 
+    3. registerForwardDHT: performs Chord algorithm to find the successor node and forwards the registration request accordingly.
+    4. isreadyForwardDHT: aggregates the number of publishers and subscribers, checks if there are any brokers, 
     and forwards the is-ready request to the appropriate node.
-    3. lookupPubByTopicForwardDHT: finds the responsible node for the requested topic and returns the information of 
+    5. lookupPubByTopicForwardDHT: finds the responsible node for the requested topic and returns the information of 
     all publishers subscribed to that topic, or forwards the request to the appropriate node.
-    4. lookallForwardDHT: forwards the look-all request to the appropriate node in the Chord DHT.
-    5. process_topic: This function processes a new topic to be registered in the distributed hash table by 
+    6. lookallForwardDHT: forwards the look-all request to the appropriate node in the Chord DHT.
+    7. process_topic: This function processes a new topic to be registered in the distributed hash table by 
     calculating its hash value and sending a registration request to the appropriate node.
-    6. registerRequestDHT: encodes the registration request and sends it to the appropriate node in the Chord DHT.
-    7. isreadyRequestDHT: encodes the is-ready request and sends it to the appropriate node in the Chord DHT.
-    8. lookupRequestDHT: Encodes a lookup request for a topic into a message to be sent to the appropriate node in 
+    8. registerRequestDHT: encodes the registration request and sends it to the appropriate node in the Chord DHT.
+    9. isreadyRequestDHT: encodes the is-ready request and sends it to the appropriate node in the Chord DHT.
+    10. lookupRequestDHT: Encodes a lookup request for a topic into a message to be sent to the appropriate node in 
     the Chord DHT.
-    9. lookallRequestDHT: Encodes a request to lookup all publishers into a message to be sent to the appropriate node 
+    11. lookallRequestDHT: Encodes a request to lookup all publishers into a message to be sent to the appropriate node 
     in the Chord DHT.
     """
     @handle_exception
