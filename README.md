@@ -60,3 +60,42 @@ Chord's algorithm to store/query information -> I think I have almost done. Had 
 
 11. lookallRequestDHT: Encodes a request to lookup all publishers into a message to be sent to the appropriate node 
     in the Chord DHT.
+
+### For DiscoveryMW,
+
+1. connectFingerTable(finger_table): Connects the DEALER sockets to the nodes in the finger table 
+    dictionary by creating and registering ZeroMQ connections with socket options.
+    
+2. send_discovery_req: Sends a discovery request
+
+3. create_discovery_req: Creates a discovery request
+    
+4. register_req_dht(index, node_type, key, reg_req, topic): Sends a serialized 
+    DiscoveryReq message of type TYPE_REGISTER with registration request parameters to 
+    a node identified by a key.
+    
+5. isready_req_dht(no_pubs, no_subs, broker, node_type): Sends a serialized DiscoveryReq 
+    message of type TYPE_ISREADY with broker parameters to a node identified by the 
+    current node's key.
+    
+6. lookup_pub_by_topic_req_dht(topic, node_type, key): Sends a serialized DiscoveryReq 
+    message of type TYPE_LOOKUP_PUB_BY_TOPIC with topic parameters to a node identified by a key.
+    
+7. lookup_all_pubs_req_dht(node_type, key): Sends a serialized DiscoveryReq message of 
+    type TYPE_LOOKUP_ALL_PUBS to a node identified by a key.
+    
+8. forward_register_req(status, index, node_type, key, reg_req): Sends a multipart message with a 
+    serialized DiscoveryReq message of type TYPE_REGISTER with registration request parameters to a 
+    node's successor.
+
+9. forward_isready_req(no_pubs, no_subs, broker, node_type, key): Sends a multipart message with 
+    a serialized DiscoveryReq message of type TYPE_ISREADY with broker parameters to a node's 
+    successor.
+
+10. forward_lookup_pub_by_topic_req(topic, node_type, key): Sends a multipart message with a 
+    serialized DiscoveryReq message of type TYPE_LOOKUP_PUB_BY_TOPIC with topic parameters to a 
+    node's successor.
+
+11. forward_lookall_req(node_type, index, key, lookall_req): Sends a multipart message with a 
+    serialized DiscoveryReq message of type TYPE_LOOKUP_ALL_PUBS with lookup request parameters 
+    to a node's successor.
