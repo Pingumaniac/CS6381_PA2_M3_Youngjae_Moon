@@ -19,7 +19,10 @@ Finger table created at each DHT node using the Chord's approach -> done
 6. Adding descriptions for the new functions introduced for PA2
 
 ### What I have almost done.
-1. I think I have almost completed Milestone 2 and 3. Please have a look at my code. I have made various functions for DiscoveryAppln and DiscoveryMW.
+1. I think I have almost completed Milestone 2 and 3. 
+
+Please have a look at my code. I have made various functions for DiscoveryAppln and DiscoveryMW.
+
 Chord's algorithm to store/query information -> I think I have almost done. Had troubles on debugging small errors.
 
 ### What I have not done
