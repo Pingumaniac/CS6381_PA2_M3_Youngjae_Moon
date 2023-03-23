@@ -99,3 +99,5 @@ Chord's algorithm to store/query information -> I think I have almost done. Had 
 11. forward_lookall_req(node_type, index, key, lookall_req): Sends a multipart message with a 
     serialized DiscoveryReq message of type TYPE_LOOKUP_ALL_PUBS with lookup request parameters 
     to a node's successor.
+ 
+### Made Pingu superclass for DiscoveryAppln and you can see in the ChordDHT.py
