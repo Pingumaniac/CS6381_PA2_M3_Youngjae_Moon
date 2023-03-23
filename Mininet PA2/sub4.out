@@ -1,0 +1,27 @@
+2023-03-22 20:11:35,497 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 20:11:35,509 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 20:11:35,511 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 20:11:35,511 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 20:11:35,511 - SubscriberAppln - INFO - SubscriberAppln::configure - selecting our topic list
+2023-03-22 20:11:35,511 - SubscriberAppln - INFO - SubscriberAppln::configure - initialize the middleware object
+2023-03-22 20:11:35,511 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - **********************************
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO -      Name: sub4
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO -      Dissemination: Direct
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO -      Num Topics: 8
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO -      TopicList: ['altitude', 'temperature', 'light', 'humidity', 'pressure', 'sound', 'airquality', 'location']
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - **********************************
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberAppln::driver - upcall handle
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - register with the discovery service
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberMW::register - start
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberMW::register - done building the outer message
+2023-03-22 20:11:35,512 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now wait for reply

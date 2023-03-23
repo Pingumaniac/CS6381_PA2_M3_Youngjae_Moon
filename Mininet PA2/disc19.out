@@ -1,0 +1,75 @@
+2023-03-22 20:11:35,410 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 20:11:35,410 - DiscoveryAppln - DEBUG - Main: parse command line arguments
+2023-03-22 20:11:35,412 - DiscoveryAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 20:11:35,412 - DiscoveryAppln - INFO - DiscoveryAppln::configure
+2023-03-22 20:11:35,412 - DiscoveryAppln - INFO - Pingu::readDhtJson - start
+2023-03-22 20:11:35,484 - DiscoveryAppln - INFO - Pingu::readDhtJson - generate finger table
+2023-03-22 20:11:35,485 - DiscoveryAppln - INFO - Pingu::setFingerTable - start
+2023-03-22 20:11:35,485 - DiscoveryAppln - INFO - Pingu::getNextNode - 166082308475254
+2023-03-22 20:11:35,485 - DiscoveryAppln - INFO - Pingu::setFingerTable - end
+2023-03-22 20:11:35,485 - DiscoveryAppln - INFO - Pingu::readDhtJson - end
+2023-03-22 20:11:35,485 - DiscoveryAppln - INFO - DiscoveryMW::configure
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - DiscoveryMW::configure completed
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - DiscoveryAppln::configure - configuration complete
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - DiscoveryAppln::driver
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - **********************************
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - DiscoveryAppln::dump
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO -      Name: disc19
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO -      Number of publishers: 5
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO -      Number of subscribers: 5
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO -      Number of brokers: 1
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO -      Number of nodes in distributed hash table: 48
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO -      Lookup: Centralized
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO -      Dissemination: Direct
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - Finger Table for this entity:
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - Current node: 188450852187288, Successor node:166082308475254
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - Current node: 188450852187289, Successor node:166082308475254
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - Current node: 188450852187291, Successor node:166082308475254
+2023-03-22 20:11:35,486 - DiscoveryAppln - INFO - Current node: 188450852187295, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852187303, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852187319, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852187351, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852187415, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852187543, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852187799, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852188311, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852189335, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852191383, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852195479, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852203671, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852220055, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852252823, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852318359, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852449431, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450852711575, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450853235863, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450854284439, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450856381591, Successor node:166082308475254
+2023-03-22 20:11:35,487 - DiscoveryAppln - INFO - Current node: 188450860575895, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188450868964503, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188450885741719, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188450919296151, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188450986405015, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188451120622743, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188451389058199, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188451925929111, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188452999670935, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188455147154583, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188459442121879, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188468032056471, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188485211925655, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188519571664023, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188588291140759, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 188725730094231, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 189000608001175, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 189550363815063, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 190649875442839, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 192848898698391, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 197246945209495, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 206043038231703, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 223635224276119, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 258819596364951, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - Current node: 47713363831959, Successor node:166082308475254
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - **********************************
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - DiscoveryAppln::driver - upcall handle
+2023-03-22 20:11:35,488 - DiscoveryAppln - INFO - DiscoveryMW::event_loop - run the event loop

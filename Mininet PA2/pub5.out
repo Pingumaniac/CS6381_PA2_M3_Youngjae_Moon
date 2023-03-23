@@ -1,0 +1,27 @@
+2023-03-22 20:11:35,251 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 20:11:35,252 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 20:11:35,253 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 20:11:35,253 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 20:11:35,254 - PublisherAppln - INFO - PublisherAppln::configure - selecting our topic list
+2023-03-22 20:11:35,254 - PublisherAppln - INFO - PublisherAppln::configure - initialize the middleware object
+2023-03-22 20:11:35,254 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 20:11:35,255 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - **********************************
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 20:11:35,256 - PublisherAppln - INFO -      Name: pub5
+2023-03-22 20:11:35,256 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 20:11:35,256 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 20:11:35,256 - PublisherAppln - INFO -      Num Topics: 8
+2023-03-22 20:11:35,256 - PublisherAppln - INFO -      TopicList: ['sound', 'humidity', 'light', 'weather', 'temperature', 'pressure', 'location', 'airquality']
+2023-03-22 20:11:35,256 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 20:11:35,256 - PublisherAppln - INFO -      Frequency: 2.0
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - **********************************
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - PublisherAppln::driver - upcall handle
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - PublisherAppln::invoke_operation - register with the discovery service
+2023-03-22 20:11:35,256 - PublisherAppln - INFO - PublisherMW::register - start
+2023-03-22 20:11:35,257 - PublisherAppln - INFO - PublisherMW::register - done building the outer message
+2023-03-22 20:11:35,257 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
